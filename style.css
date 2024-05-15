@@ -1,0 +1,820 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto';
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    padding-top: 3%;
+    width: 100%;
+    height: 50%;
+    background-color: #FDF8EE;
+    
+}
+    
+
+.logo {
+    
+    width: 10%;
+    height: 9%;
+    margin-top: 2%;
+    margin-left: 7%;
+   
+}
+.list{
+  
+    display: flex;
+    font-family: 'Roboto';
+    margin-top: 2%;
+    width: 60%;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.lists{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    font-size: 16px;
+    font-weight: bold;
+    color: #1D1D1D;
+    
+}
+
+nav button {
+    background-color: #4D2C5E;
+    height: 3rem;
+    width: 7rem;
+    color: #FDF8EE;
+    border-radius: 4rem;
+    font-size: large;
+    margin-top:1%;
+}
+.btn{
+    margin-right: 1%;
+    margin-left: 2%;
+}
+
+section {
+    background-color: #FDF8EE;
+    
+}
+
+.hero {
+    display: flex;
+    width: 100%;
+    padding-bottom: 20rem;
+    background-color: #FDF8EE;
+    z-index: 0;
+    position: relative;
+
+
+}
+
+.hero1 {
+    width: 30%;
+    font-family: 'Roboto';
+    padding-left: 10rem;
+    margin-top: 2rem;
+}
+
+.hero2 {
+    width: 70%;
+}
+
+.heroimg {
+    width: 70%;
+    margin-left: 3%;
+
+
+}
+.heroimg img{
+    object-fit: contain;
+}
+
+.hero1 h1 {
+    font-size: 3.2rem;
+}
+
+.word1 {
+    color: #FF7426;
+
+    ;
+}
+
+.word2 {
+    color: #FF7426;
+}
+
+.search-container {
+    background-color: #ffffff;
+    border-radius: 25px;
+    color: #0F335E;
+    height: 3.5rem;
+    width: 100%;
+
+
+}
+
+.search-circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3.5rem;
+
+
+
+}
+
+.search-circle button {
+    height: 3.5rem;
+    width: 9rem;
+    border: none;
+    border-radius: 30px;
+    background-color: #4D2C5E;
+    color: #fff;
+    font-size: large;
+    margin-left: 8rem;
+
+
+}
+
+.search-circle h4 {
+    padding-left: 0.4rem;
+}
+
+.purple {
+    height: 38%;
+    width: 70%;
+    background: #4D2C5E;
+    border-radius: 14px;
+    margin-left: 15%;
+    z-index: 1;
+    position: absolute;
+    display: flex;
+    margin-top: -6%;
+    
+
+}
+
+.box {
+    display: flex;
+    color: white;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.boximg {
+    width: 12%;
+    height: 10%;
+    background-color: #71567E;
+    border: 20px solid rgba(255, 255, 255, 0);
+    border-radius: 1.1rem;
+}
+.boximg img{
+    height: 100%;
+    width: 100%;
+}
+
+.box h1 {
+    margin-left: 1rem;
+    padding-bottom: 1rem;
+}
+
+.box p {
+    color: rgba(255, 255, 255, 0.6);
+    margin-left: 1rem;
+
+}
+
+.curd {
+    position: relative;
+    margin-top: 20%;
+   
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.curd h1 {
+    font-size: 2.5rem;
+}
+
+.content {
+    flex-grow: 1;
+    margin: 0 20px;
+    /* Add some spacing between the text and images */
+}
+
+.left-image,
+.right-image {
+    align-self: flex-start;
+    /* Align images to the top */
+}
+
+.cards {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.card {
+    position: relative;
+    margin: auto;
+    width: 23rem;
+    height: 400px;
+    border-radius: 10px;
+    margin-bottom: 4rem;
+    padding: 0.7rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin-left: 3.7rem;
+
+}
+
+.card-img {
+    width: 100%;
+    height: 60%;
+    object-fit: cover;
+    border-radius: 15px;
+
+
+}
+
+.star {
+    position: absolute;
+    bottom: 8.6rem;
+    right: 10px;
+    width: 5rem;
+}
+
+.dotted-line {
+    width: 100%;
+    height: 2px;
+    border-bottom: 1px dotted #ccc;
+
+}
+
+.all {
+    width: 100%;
+
+}
+
+.card-content {
+    padding: 20px;
+    text-align: left;
+}
+
+.price {
+    display: block;
+    font-size: larger;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #FF7426;
+}
+
+.button {
+    position: absolute;
+    bottom: -20px;
+    /* Move the button slightly outside the card */
+    left: 50%;
+
+    transform: translateX(-50%);
+    background-color: #FF7426;
+    color: #fff;
+    border: none;
+    font-size: large;
+    border-radius: 20px;
+    padding: 12px 27px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.bhero {
+    position: relative;
+    top: 10rem;
+    padding-top: 7rem;
+    padding-bottom: 8rem;
+    display: flex;
+    width: 100%;
+    background-color: #FDF8EE;
+}
+
+.bhero1 {
+    width: 100%;
+    font-family: 'Roboto';
+}
+
+.bhero2 {
+    width: 100%;
+}
+
+.bheroimg {
+    position: absolute;
+    width: 30rem;
+    height: 38rem;
+    bottom: -4.5rem;
+    object-fit: cover;
+    margin-left: 3rem;
+
+}
+
+.bhero1 h1 {
+    font-size: 3.2rem;
+    margin-bottom: 1.5rem;
+}
+
+.bword1 {
+    color: #FF7426;
+}
+
+.bword2 {
+    color: #FF7426;
+}
+
+.bbox {
+    justify-content: flex-start;
+    align-items: center;
+    display: flex;
+}
+
+.bbox img {
+    width: 2.7rem;
+    height: 2.3rem;
+    background-color: rgba(77, 44, 94, 1);
+    border: 20px solid rgba(255, 255, 255, 0);
+    border-radius: 1.1rem;
+    margin-bottom: 1rem;
+}
+
+.bbox h2 {
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    color: #050C26;
+}
+
+.bbox p {
+    color: #8A8A8A;
+    margin-left: 1rem;
+    margin-bottom: 2.5rem;
+
+}
+
+.bottm {
+    position: relative;
+    top: 14rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+    
+}
+
+.cards1 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:70%;
+}
+
+.card1 {
+    width: 20rem;
+    height: 30%;
+    color: #ACACAC;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 0.7rem;
+    margin-left: 3.5rem;
+    margin-top: 3rem;
+
+
+}
+.image-container{
+    display: flex;
+}
+.rounded-image {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    margin-right:4rem;
+    
+}
+
+.name {
+    font-weight: bold;
+    color: #050C26;
+}
+
+.description {
+    padding: 10px;
+    text-align: justify;
+}
+
+.curd1 {
+    position: relative;
+    top: 0.5rem;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 4rem;
+
+}
+
+.curd1 h1 {
+    font-size: 2.5rem;
+}
+
+.content {
+    flex-grow: 1;
+    margin: 0 20px;
+
+}
+
+.left-image,
+.right-image1 {
+    align-self: flex-start;
+
+
+}
+
+.right-image1 {
+    margin-top: 4rem;
+    margin-right: 2rem;
+
+
+}
+
+.left-image {
+    margin-left: 2rem;
+}
+.cards2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.card2{
+    position: relative;
+    top: 17rem;
+    width: 23rem;
+    height: 30%;
+    border-radius: 10px;
+    padding: 0.7rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin-left: 3.7rem;
+
+}
+
+.card-img {
+    width: 100%;
+    height: 60%;
+    object-fit: cover;
+    border-radius: 15px;
+
+
+}
+
+.all1 {
+    width: 20%;
+    margin-left: 7rem;
+    margin-top: 3rem;
+}
+
+.card-content {
+    padding: 20px;
+    text-align: left;
+}
+
+.price1{
+    font-size:large;
+    color: #FF7426;
+   padding-top:2rem;
+}
+.inline{
+    display:flex;
+}
+.purple1 {
+    position: relative;
+    background: #4D2C5E;
+    border-radius: 14px;
+    margin-left:16%;
+    margin-top: 22rem;
+    position: absolute;
+    padding-bottom: 4rem;
+    height: 38%;
+    width: 70%;
+    
+   
+
+}
+.text h1{
+    margin-left:21rem;
+    padding-top: 3rem;
+    justify-content: center;
+    align-items: center;
+}
+.text h5{
+    margin-left:23rem;
+    padding-top:0.5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-container1 {
+    background-color: #ffffff;
+    border-radius: 25px;
+    height: 3.5rem;
+    width: 29rem;
+    margin-left: 19rem;
+}
+.search-circle1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3.5rem;
+}
+
+.search-circle1 button {
+    height: 3.3rem;
+    width: 9rem;
+    border: none;
+    border-radius: 30px;
+    background-color:#FF7426;
+    color: #fff;
+    font-size: large;
+    margin-left: 13rem;
+    margin-top: 1px;
+
+}
+
+.search-circle1 h4 {
+    padding-left: 0.4rem;
+}
+
+.immm{
+    display: flex;
+    justify-content: space-between;
+
+}
+.imm1{
+   
+    margin-right: 2rem;
+    margin-bottom: 5rem;
+    height: 6rem;
+    width: 7rem;
+    
+}
+
+.imm2{
+    margin-left: 2rem;
+    height: 7rem;
+    width: 8rem;
+}
+.footer {
+    
+    justify-content:center;
+    background: #FDF8EE;
+    position: relative;
+    margin-top: 60%;
+    padding-bottom: 4rem;
+    
+  }
+  .fcards{
+    display: flex;
+    justify-content:center;
+    background: #FDF8EE;
+    position: relative;
+    margin-left:2rem;
+    
+    
+  }
+
+  .column {
+    color:#00052E;
+    width:3rem;
+    width: 20%;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    margin: auto;
+  }
+
+  .heading {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+.himg{
+    width: 20%;
+    height: 20%;
+}
+  .row {
+    margin-bottom: 5px;
+    color: #606060;
+  }
+  .dotted-line2 {
+    width: 100%;
+    height: 2px;
+    border-bottom: 1px dotted #ccc;
+
+}
+@media only screen and (max-width: 788px) {
+    .header {
+       flex-direction: column;
+       position:relative;
+       width: 100%;
+    }
+    .logo{
+        margin-right: 4rem;
+    }
+    .hero {
+        flex-direction: column;
+        
+    }
+
+    .hero1{
+        width:100%;
+        justify-content:space-evenly;
+        align-items: center;
+       padding: 0;
+       margin: 0;
+    
+    }
+    .hero1 h1{
+        margin-left: 3%;
+    }
+    .hero1 p{
+        margin: 4%;
+    }
+    .hero2{
+        width: 90%;
+    }
+
+    .heroimg {
+        
+        width: 90%;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        
+    }
+    .search-container{
+        width: 60%;
+        margin:auto[p];
+    }
+    .search-circle button {
+        height: 3.5rem;
+        width: 5rem;
+        border: none;
+        border-radius: 30px;
+        background-color: #4D2C5E;
+        color: #fff;
+        font-size: large;
+    
+    
+    }
+
+
+    .purple {
+        width:93%;
+        flex-direction: column;
+        align-items: center;/* Adjust margin-top for smaller screens */
+        margin-left: 0%;
+        padding: 2%;
+    }.bottm{
+        position: relative;
+        top: 0;
+    }
+    
+    .curd1,.content{
+        width:90%;
+        position: relative;
+        top: 0;
+    }
+     .bhero, .bottm,.cards,.fcards {
+        top: auto;
+        position: relative;
+        flex-direction: column;
+        width: 90%;
+    
+       
+    }
+    .bhero{
+        padding: 0;
+        margin-top: 15%;
+        width: 100%;
+      }
+      .bhero1{
+        position: relative;
+        width: 90%;
+        height: 20%;
+        padding-top: 0;
+  
+    }
+    .bhero2{
+        width: 50%;
+
+    }
+    .bhero1 h1{
+        margin: auto;
+    }
+    .bbox{
+        margin-left:5%;
+    }
+    .bheroimg {
+        
+        width: 75%;
+        height: 70%;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        object-fit: cover;
+        margin-bottom: 19%;
+        
+    }
+    .cards2,.cards1{
+        flex-direction: column;
+        width: 93%;
+        height: 87rem;
+        justify-content: right;
+        position: relative;
+        top: 0;
+        
+    }
+    .cards{
+        width:95%;
+    }
+    .card{
+        margin-left: 8%;
+        margin-top: 10%;
+    
+
+    }
+    .card1{
+        height: 50%;
+    }
+    .curd{width: 90%;
+
+    }
+    .purple1{
+        width:95%;
+        margin-left: 0;
+        position: relative;
+        top: 0;
+        margin-top:19rem;
+       
+        
+    }
+    .search-container1{
+        width: 65%;
+        margin-left: 19%;
+    }
+    .text  h5 , h1{ 
+        position: relative;
+        width: 90%;
+        margin-left: 19%;
+        justify-content: center;
+        align-items:center ;
+    }
+    .text   h1{ 
+        position: relative;
+        width: 90%;
+        margin-left: 19%;
+        justify-content: center;
+        align-items:center ;
+    }.immm{
+       position: relative;
+        width: 80%;
+        margin-left:10%;
+    }
+    .footer{
+        width: 100%;
+        margin-top: 4%;
+    }
+     .fcards{
+        
+        position: relative;
+        top: 0%;
+     }
+    .card, .card1, .card2 {
+        width:93%;
+        margin-left: 5%;
+        margin-bottom: 5%;
+        
+    }
+}
+
+
